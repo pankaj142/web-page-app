@@ -1,0 +1,28 @@
+<! author: Pankaj Agham>
+
+
+<!DOCTYPE html>
+
+<html>
+   <head>
+       <title>First Assignment</title>
+       <script src="angular.min.js"></script>
+       <script src="app.js" ></script>
+   </head>
+    
+    <body ng-app="myApp">
+        <br>
+        <br>
+        <div ng-controller="firstController">
+            <input type="text" ng-model=name>   (Note: plz dont use empty items i.e. , , as it will be counted.)
+               <br> 
+            <br>
+            <button ng-click="countItems();">Check If too much !</button><br> 
+        {{message}}
+        </div>
+        
+        
+        
+    </body>
+    
+</html>
